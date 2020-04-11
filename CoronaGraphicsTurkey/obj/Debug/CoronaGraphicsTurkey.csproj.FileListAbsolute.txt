@@ -1,0 +1,17 @@
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.csprojAssemblyReference.cache
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form1.resources
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.csproj.GenerateResource.cache
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.csproj.CoreCompileInputs.cache
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\bin\Debug\CoronaGraphicsTurkey.exe.config
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\bin\Debug\CoronaGraphicsTurkey.exe
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\bin\Debug\CoronaGraphicsTurkey.pdb
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.exe
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.pdb
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form2.resources
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form3.resources
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form4.resources
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form5.resources
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form6.resources
+c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form7.resources
+C:\Users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form8.resources
