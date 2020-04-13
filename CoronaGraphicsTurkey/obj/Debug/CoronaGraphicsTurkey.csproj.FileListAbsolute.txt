@@ -15,3 +15,4 @@ c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaG
 c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form6.resources
 c:\users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form7.resources
 C:\Users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form8.resources
+C:\Users\asus\documents\visual studio 2017\Projects\CoronaGraphicsTurkey\CoronaGraphicsTurkey\obj\Debug\CoronaGraphicsTurkey.Form9.resources

@@ -90,5 +90,12 @@ namespace CoronaGraphicsTurkey
 
             con.Close();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form9 frm9 = new Form9();
+            frm9.Show();
+          
+        }
     }
 }
