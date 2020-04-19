@@ -1,0 +1,31 @@
+**************************************PROGRAMIN ÇALIŞMA MANTIĞI**************************************
+
+Programın açılışında veri tabanındaki kayıtlı veriler datagrid'te gösterilir.
+Aynı zamanda veritabanındaki son güncelleme kaydı kullanıcıya gösterilir.
+Eğer hiç kayıt yok ise bu alan boş kalacaktır.
+
+Verileri Güncelle Butonuna Tıklandığında:
+-covid19.saglik.gov.tr sitesine giderek html node okuması yapılır ve günlük olan veri elde edilir.
+-Günlük elde edilen verideki gün, veritabanındaki gün kaydı ile aynı ise program veriler günceldir uyarısı verir.
+Değil ise veriler güncellenerek veritabanına eklenir.
+-Bu işlemlerden sonra datagrid güncellenir.
+-Güncelleme Tarihi güncellenir.
+
+Günlük Vaka Grafiği,Günlük ve Toplam Vaka Sayısı Grafiği, Toplam İyileşen ve Toplam Ölen Sayısı Grafiği, 
+Günlük ve Toplam Test Sayısı Grafiği, Günlük İyileşen ve Ölen Sayısı Grafiği, Vaka Artış Hızı Grafiği 
+veritabanındaki bilgilerin grafiğe dökülmüş halidir.
+
+Sonuçlanan Vaka Durumu Butonuna Tıklandığında:
+-Toplam İyileşen Hasta Sayısı ve Toplam Vefat Eden Hasta Sayısı Verisi Veritabanından çekilir ve grafik oluşturulur.
+-Bu veriler toplanarak sonuçlanan vaka sayısı hesaplanır.
+-Sonuçlanan vaka sayısı baz alınarak bu vakalardaki iyileşen ve ölen oranı % lik olarak hesaplanır.
+
+Vaka Durumu Butonuna Tıklandığında:
+-Toplam Vaka Sayısı ve Toplam Test Sayısı verisi veritabanından çekilir ve grafik oluşturulur.
+-Toplam Vaka Sayısı * 100 / Toplam Test Sayısı bilgisi bize yapılan her 100 testten kaç kişinin pozitif çıktığı bilgisini 
+bize vereceğinden bu hesaplama yapılarak bu bilgi elde edilir.
+
+Aktif Vaka Durumu Butonu:
+-Veritabanından Toplam Vaka , Toplam İyileşen ve Toplam Ölen sayısı bilgileri çekilir.
+-Toplam vakadan toplam iyileşen ve toplam ölen sayısını çıkarttığımız zaman elde kalan veri bize aktif vaka sayısını vermektedir.
+
