@@ -25,7 +25,7 @@ namespace CoronaGraphicsTurkey
         {
             this.chart1.Titles.Add("Günlük ve Toplam Vaka Sayısı");
             con.Open();
-            SqlCommand komut = new SqlCommand("Select Gün,GünlükVaka From corona", con);
+            SqlCommand komut = new SqlCommand("Select Gün,GünlükVaka From corona Order By id Asc", con);
             SqlDataReader oku = komut.ExecuteReader();
             while (oku.Read())
             {
@@ -33,7 +33,7 @@ namespace CoronaGraphicsTurkey
             }
             con.Close();
             con.Open();
-            SqlCommand komut2 = new SqlCommand("Select Gün,ToplamVaka From corona", con);
+            SqlCommand komut2 = new SqlCommand("Select Gün,ToplamVaka From corona Order By id Asc", con);
             SqlDataReader oku2 = komut2.ExecuteReader();
             while (oku2.Read())
             {

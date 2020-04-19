@@ -23,7 +23,7 @@ namespace CoronaGraphicsTurkey
         {
             this.chart1.Titles.Add("Günlük Vaka Sayısı");
             con.Open();
-            SqlCommand komut = new SqlCommand("Select Gün,GünlükVaka From corona", con);
+            SqlCommand komut = new SqlCommand("Select Gün,GünlükVaka From corona Order By id Asc", con);
             SqlDataReader oku = komut.ExecuteReader();
             while (oku.Read())
             {

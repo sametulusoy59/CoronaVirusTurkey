@@ -50,5 +50,10 @@ namespace CoronaGraphicsTurkey
             c = a * 100 / b;
             richTextBox1.Text="Bu sonuçlara göre test yapılan her 100 kişiden yaklaşık olarak "+c+" tanesinde korona virüs tespit edilmiştir. ";
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

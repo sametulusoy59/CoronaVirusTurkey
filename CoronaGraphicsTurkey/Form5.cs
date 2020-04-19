@@ -23,7 +23,7 @@ namespace CoronaGraphicsTurkey
         {
             this.chart1.Titles.Add("Günlük ve Toplam Yapılan Test Sayısı");
             con.Open();
-            SqlCommand komut = new SqlCommand("Select Gün,Gunluktestsayisi From corona", con);
+            SqlCommand komut = new SqlCommand("Select Gün,Gunluktestsayisi From corona Order By id Asc", con);
             SqlDataReader oku = komut.ExecuteReader();
 
             while (oku.Read())
@@ -33,7 +33,7 @@ namespace CoronaGraphicsTurkey
             con.Close();
 
             con.Open();
-            SqlCommand komut2 = new SqlCommand("Select Gün,Toplamtestsayisi From corona", con);
+            SqlCommand komut2 = new SqlCommand("Select Gün,Toplamtestsayisi From corona Order By id Asc", con);
             SqlDataReader oku2 = komut2.ExecuteReader();
             while (oku2.Read())
             {

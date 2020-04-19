@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8));
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,6 +48,8 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label2
@@ -222,11 +225,29 @@
             this.textBox9.TabIndex = 20;
             this.textBox9.Visible = false;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(41, 13);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(51, 13);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "TarihGün";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(98, 6);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 20);
+            this.textBox10.TabIndex = 22;
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 370);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
@@ -246,8 +267,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form8";
             this.Text = "CoronaVirusTurkey";
+            this.Load += new System.EventHandler(this.Form8_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,5 +296,7 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox10;
     }
 }
